@@ -25,6 +25,12 @@ bash-scripts/
   - Auto-installs dependencies (jq)
   - Comprehensive logging and error handling
 
+- **[cert-renewal.sh](networking/cert-renewal.sh)** - Automated SSL/TLS certificate management
+  - Generates both ECC and RSA certificates via Let's Encrypt
+  - Uses Cloudflare DNS validation
+  - Docker-based for portability
+  - Automatic nginx integration
+
 ## 📖 Usage Guidelines
 
 ### Prerequisites
